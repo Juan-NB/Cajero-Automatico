@@ -1,0 +1,53 @@
+.header {
+    background-image: url('https://images.pexels.com/photos/3907161/pexels-photo-3907161.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+
+.col-card {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.card-login {
+    background-color: #363d4d;
+}
+
+.btn-login {
+    background-color: #a94a45;
+}
+
+/*main.html*/
+.home-h2{
+    background-color: #363d4d;
+}
+.header-cajero{
+    background-image: url('https://images.pexels.com/photos/3907161/pexels-photo-3907161.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100Vh;
+    position: relative;
+}
+.card-cajero{
+    background-color: #363d4d;
+}
+.col-card-cajero{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+.btn-salir{
+    width: 150px;
+    background-color: #a94a45;
+}
+.btn{
+    transition: all .5s;
+}
+.btn:hover{
+    background-color: #b3afb7;
+}
